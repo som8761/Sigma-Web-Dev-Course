@@ -6,6 +6,111 @@
     <title>Document</title>
 </head>
 <body>
-    <!-- card.png is a file which contains a card Image. Write html and css code to design this card. Use #html -->
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <style>
+    #card-container {
+      border: solid black 1px;
+      width: 323px;
+      padding: 2px;
+      padding-bottom: 8px;
+      margin: auto;
+      border-radius: 16px;
+    }
+
+    #image-container {
+      width: 312px;
+      margin: 5px auto;
+    }
+    img {
+      border-radius: 16px;
+      width: 100%;
+      height: 253px;
+    }
+
+    #capcules {
+      display: flex;
+      justify-content: flex-start;
+    }
+    span{
+        border: #666 solid 1px;
+        border-radius: 17px;
+        padding: 3px;
+        width: 59px;
+        text-align: center;
+        margin-left: 16px;
+        font-size: 19px;
+    }
+    span:hover{
+        border: 1px transparent black;
+        background-color: pink;
+        color: black;
+        cursor: pointer;
+        transition: all 0.3s ease; /* Add transition for all properties over 0.3 seconds with ease timing function */
+    }
+
+    #texts {
+      margin-left: 16px;
+    }
+    #lorem {
+      line-height: 23px;
+      text-align: left;
+      font-size: 19px;
+    }
+    #submit {
+      display: flex;
+      margin: auto;
+      justify-content: center;
+    }
+    button {
+      width: 123px;
+      text-align: center;
+      padding: 13px;
+      border-radius: 21px;
+      color: blue;
+      border: none;
+      background-color: lightblue;
+    }
+    button:hover{
+        border: 1px transparent black;
+        background-color: white;
+        color: black;
+        cursor: pointer;
+        transition: all 0.3s ease; /* Add transition for all properties over 0.3 seconds with ease timing function */
+    }
+  </style>
+  <body>
+    <div id="card-container">
+      <div id="image-container">
+        <img src="..//photos2/596a393eb7998b72a54d0ea05d507d6c.jpg" alt="" />
+      </div>
+
+      <div id="capcules">
+        <span>Nature</span>
+        <span>Lake</span>
+      </div>
+
+      <div id="texts">
+        <h1>Lago di Braies</h1>
+
+        <p id="lorem">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci
+          quia assumenda temporibus, suscipit sed esse dolorem? Expedita, iusto
+          fugiat tenetur reprehenderit mollitia, i adipisci.
+        </p>
+
+        <div id="submit">
+          <button>Read More</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
 </body>
 </html>
